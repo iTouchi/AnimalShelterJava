@@ -1,9 +1,9 @@
-package Animals;
+package Products;
 
 public class Product implements ISellable {
 
     private String name;
-    private Decimal price;
+    private Double price;
 
     public void setName(String name) {
         this.name = name;
@@ -13,11 +13,11 @@ public class Product implements ISellable {
         return this.name;
     }
 
-    public void setPrice(Decimal price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
-    public Decimal getPrice(){
+    public Double getPrice(){
         return this.price;
     }
 }

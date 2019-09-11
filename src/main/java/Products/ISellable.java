@@ -1,11 +1,13 @@
+package Products;
+
 public interface ISellable {
 
     void setName(String newName);
 
     String getName();
 
-    void setPrice(Decimal newPrice);
+    void setPrice(Double newPrice);
 
-    Decimal getPrice();
+    Double getPrice();
 
 }
