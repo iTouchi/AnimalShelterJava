@@ -1,9 +1,9 @@
+package Animals;
+
 import java.util.Calendar;
 
 public class Dog extends Animal {
 
-    //    public Date lastWalk;
-    //    Date currentDate = new Date();
 
     public Calendar lastWalk = Calendar.getInstance();
     public Calendar currentDate = Calendar.getInstance();
