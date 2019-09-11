@@ -2,16 +2,41 @@ import java.util.Date;
 
 public class Animal {
 
-    public String name;
-    public Gender gender;
-    public Reservor reservedBy;
+    private String name;
+    private Gender gender;
+    private Reservor reservedBy;
 
     Date CurrentDate = new Date();
 
 
-    Animal(String name, Gender gender) {
-        this.name = name;
-        this.gender = gender;
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setGender(Gender newGender) {
+        this.gender = newGender;
+    }
+
+    public Gender getGender() {
+        return this.gender;
+    }
+
+    public void setReservedBy(Reservor newReservor) {
+        this.reservedBy = newReservor;
+    }
+
+    public Reservor getReservedBy() {
+        return this.reservedBy;
+    }
+
+
+    public Animal(String name, Gender gender) {
+        setName(name);
+        setGender(gender);
 
     }
 
@@ -27,7 +52,7 @@ public class Animal {
     public String toString() {
         String reserved = "not reserved";
         if (this.reservedBy != null) {
-            reserved = "reserved by" + "," + this.reservedBy.name;
+            reserved = "reserved by" + "," + this.reservedBy.getName();
         }
         return this.name + "," + this.gender + "," + reserved;
     }

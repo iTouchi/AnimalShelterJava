@@ -1,11 +1,19 @@
 
 public class Cat extends Animal {
 
-    public String badHabits;
+    private String badHabits;
 
-    Cat(String name, Gender gender, String badHabits) {
-        super(name, gender);
-        this.badHabits = badHabits;
+    public void setBadHabits(String newBadHabits) {
+        this.badHabits = newBadHabits;
+    }
+
+    public String getBadHabits() {
+        return this.badHabits;
+    }
+
+    public Cat(String newName, Gender newGender, String newBadHabits) {
+        super(newName, newGender);
+        setBadHabits(newBadHabits);
     }
 
     @Override
