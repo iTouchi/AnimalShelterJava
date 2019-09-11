@@ -1,19 +1,25 @@
-import java.util.Date;
+import java.util.Calendar;
 
 public class Dog extends Animal {
 
-    public Date lastWalk;
+    //    public Date lastWalk;
+    //    Date currentDate = new Date();
 
-    public boolean needsWalk{
-            return (lastWalk - this.lastWalk).Days > 0;
+    public Calendar lastWalk = Calendar.getInstance();
+    public Calendar currentDate = Calendar.getInstance();
+
+    public boolean needsWalku() {
+
+        if (currentDate.get(Calendar.DAY_OF_YEAR) - lastWalk.get(Calendar.DAY_OF_YEAR) > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    public Dog(string name, Gender gender) {
+    public Dog(String name, Gender gender) {
         super(name, gender);
-        if
-        {
-            return (DateTime.Today - this.LastWalk).Days > 0;
-        }
+        this.lastWalk = currentDate;
     }
 
     @Override
