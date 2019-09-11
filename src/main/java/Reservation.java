@@ -4,13 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Reservation {
-    public List<Animal> Animals = new ArrayList<Animal>();
+    public List<Cat> cats = new ArrayList<Cat>();
+    public List<Dog> dogs = new ArrayList<Dog>();
 
     public void NewCat(String name, Gender gender, String badHabits) {
-        this.Animals.add(new Cat(name, gender, badHabits));
+        this.cats.add(new Cat(name, gender, badHabits));
     }
 
     public void NewDog(String name, Gender gender) {
-        this.Animals.add(new Dog(name, gender));
+        this.dogs.add(new Dog(name, gender));
     }
+
+
 }
