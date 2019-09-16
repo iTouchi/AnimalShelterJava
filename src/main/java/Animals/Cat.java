@@ -4,6 +4,11 @@ public class Cat extends Animal {
 
     private String badHabits;
 
+    public Cat(String newName, Gender newGender, String newBadHabits) {
+        super(newName, newGender);
+        setBadHabits(newBadHabits);
+    }
+
     public void setBadHabits(String newBadHabits) {
         this.badHabits = newBadHabits;
     }
@@ -12,10 +17,7 @@ public class Cat extends Animal {
         return this.badHabits;
     }
 
-    public Cat(String newName, Gender newGender, String newBadHabits) {
-        super(newName, newGender);
-        setBadHabits(newBadHabits);
-    }
+
 
     @Override
     public String toString() {
