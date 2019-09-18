@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95b8364-4be5-40ae-a446-716146a2fd51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#930#931#0" expanded="true" />
@@ -185,8 +180,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="1644" />
-    <option name="height" value="2104" />
+    <option name="width" value="1645" />
+    <option name="height" value="2106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,7 +290,7 @@
       <workItem from="1568227514129" duration="6528000" />
       <workItem from="1568639107983" duration="871000" />
       <workItem from="1568643883461" duration="5428000" />
-      <workItem from="1568664405811" duration="262000" />
+      <workItem from="1568664405811" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="Added ISellable">
       <created>1568208231562</created>
@@ -318,15 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568236709229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TestCases toegevoegd voor de Cat en Dog klasses">
+      <created>1568664745165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568664745165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33038000" />
+    <option name="totallyTimeSpent" value="34519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1865" height="1208" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1759823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -366,7 +367,8 @@
     <MESSAGE value="Added ISellable" />
     <MESSAGE value="Animal class is now an Abstract class.&#10;Product and Webshop classes added to the project." />
     <MESSAGE value="Errors uitgehaald" />
-    <option name="LAST_COMMIT_MESSAGE" value="Errors uitgehaald" />
+    <MESSAGE value="TestCases toegevoegd voor de Cat en Dog klasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestCases toegevoegd voor de Cat en Dog klasses" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Reservation.java">
@@ -472,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#930#931#0" expanded="true" />
