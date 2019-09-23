@@ -9,14 +9,13 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
 
-    public void OnClick(ActionEvent actionEvent) {
-
-
-    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
+    }
+
+    public void onClick(ActionEvent actionEvent) {
     }
 }
 
