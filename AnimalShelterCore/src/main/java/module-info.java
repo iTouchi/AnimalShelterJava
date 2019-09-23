@@ -1,0 +1,3 @@
+module AnimalShelterCore {
+    exports Classes;
+}

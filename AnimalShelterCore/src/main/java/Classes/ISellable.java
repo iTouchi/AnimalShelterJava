@@ -1,4 +1,4 @@
-package Products;
+package Classes;
 
 public interface ISellable {
 

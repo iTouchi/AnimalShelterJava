@@ -1,4 +1,4 @@
-package Products;
+package Classes;
 
 public class Product implements ISellable {
 

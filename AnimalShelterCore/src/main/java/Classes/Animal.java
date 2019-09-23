@@ -1,8 +1,8 @@
-package Animals;
+package Classes;
 
 import java.util.Date;
 
-abstract class Animal {
+public abstract class Animal {
 
     private String name;
     private Gender gender;

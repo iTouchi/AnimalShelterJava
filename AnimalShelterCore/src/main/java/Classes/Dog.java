@@ -1,4 +1,4 @@
-package Animals;
+package Classes;
 
 import java.util.Calendar;
 
