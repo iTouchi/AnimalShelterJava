@@ -1,5 +1,7 @@
 package sample;
 
+import Classes.Cat;
+import Classes.Gender;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -16,6 +18,9 @@ public class Controller implements Initializable{
     public Label labelGender;
     public ListView lbAnimals;
 
+
+    public Cat simboe = new Cat("Simba", Gender.MALE,"Bites");
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -25,7 +30,7 @@ public class Controller implements Initializable{
 
         String name = tbName.textProperty().get();
         labelGender.textProperty().set(name);
-        lbAnimals.getItems().add(name);
+        lbAnimals.getItems().add(simboe);
     }
 }
 
