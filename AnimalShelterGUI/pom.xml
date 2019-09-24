@@ -80,6 +80,11 @@
             <version>5.1.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.AnimalShelterGUI</groupId>
+            <artifactId>AnimalShelterCore</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
