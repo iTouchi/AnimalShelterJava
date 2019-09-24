@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AnimalShelterCore" target="11" />
+      <module name="AnimalShelterCore" target="9" />
       <module name="AnimalShelterGUI" target="11" />
       <module name="AnimalShelterJava" target="11" />
     </bytecodeTargetLevel>
