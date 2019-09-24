@@ -1,6 +1,7 @@
 package sample;
 
-import Classes.*;
+import Classes.Cat;
+import Classes.Dog;
 import Classes.Gender;
 import Classes.Reservation;
 import javafx.event.ActionEvent;
@@ -8,6 +9,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
@@ -35,6 +38,9 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
+
+
+
     }
 
     public void addAnimalOnClick(ActionEvent actionEvent) {
@@ -47,15 +53,10 @@ public class Controller implements Initializable {
 //        lbAnimals.getItems().add(simboe);
 
         if (species.equals("Cat")) {
-//            cat.setBadHabits(badHabits);
-//            cat.setGender(gender);
-//            cat.setName(name);
             reservation.newCat(name, gender, badHabits);
 
         } else if (species.equals("Dog")) {
-            dog.setGender(gender);
-            dog.setName(name);
-            reservation.Animals.add(dog);
+            reservation.newDog(name,gender);
         } else {
             labelGender.textProperty().set("Select Species");
         }
