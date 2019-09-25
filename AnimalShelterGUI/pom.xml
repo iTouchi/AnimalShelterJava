@@ -14,6 +14,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+
     <properties>
         <codeVersion>11</codeVersion>
         <openfxVersion>12</openfxVersion>
@@ -24,7 +25,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.8.1</version>
                 <configuration>
                     <release>${codeVersion}</release>
                     <source>${codeVersion}</source>
@@ -50,17 +51,8 @@
 
         </plugins>
     </build>
-    <!--
-        OpenFX dependencies see:
-        https://openjdk.java.net/projects/openjfx/
-    -->
+
     <dependencies>
-        <dependency>
-            <groupId>com.AnimalShelterCore</groupId>
-            <artifactId>AnimalShelterCore</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <!-- JavaFX for GUI -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -76,17 +68,13 @@
             <artifactId>javafx-fxml</artifactId>
             <version>${openfxVersion}</version>
         </dependency>
-
-        <!-- Junit5 for unit testing -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.1.0</version>
-            <scope>test</scope>
+            <groupId>com.AnimalShelterCore</groupId>
+            <artifactId>AnimalShelterCore</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
-
-
 
 
 </project>

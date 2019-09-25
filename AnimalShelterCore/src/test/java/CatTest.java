@@ -1,8 +1,8 @@
-import Classes.*;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import Classes.Cat;
+import Classes.Gender;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
