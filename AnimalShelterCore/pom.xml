@@ -8,11 +8,11 @@
     <artifactId>AnimalShelterCore</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<!--    <parent>-->
-<!--        <artifactId>AnimalShelterJava</artifactId>-->
-<!--        <groupId>com.AnimalShelterJava</groupId>-->
-<!--        <version>1.0-SNAPSHOT</version>-->
-<!--    </parent>-->
+    <parent>
+        <artifactId>AnimalShelterJava</artifactId>
+        <groupId>com.AnimalShelterJava</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
