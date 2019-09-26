@@ -1,28 +1,30 @@
 package Classes;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Reservor {
 
     private String name;
-    private Date reservedAt;
+    private LocalDateTime reservedAt;
 
-    public Reservor(String name, Date newDate) {
-
-        this.name = name;
+    public Reservor(String newName, LocalDateTime newDate){
+        this.name = newName;
         this.reservedAt = newDate;
-
     }
 
     //Getter
-    public String getName() {
+    public String getName(){
         return name;
+    }
+    public LocalDateTime getReservedAt(){
+        return reservedAt;
     }
 
     //Setter
-    public void setName(String newName) {
+    public void setName(String newName){
         this.name = newName;
     }
-
-
+    public void setReservedAt(LocalDateTime newDate){
+        this.reservedAt = newDate;
+    }
 }

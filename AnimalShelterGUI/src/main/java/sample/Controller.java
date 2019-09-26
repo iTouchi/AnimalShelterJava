@@ -1,87 +1,82 @@
 package sample;
 
-import Classes.Cat;
-import Classes.Dog;
+import Classes.Animal;
+import Classes.AnimalFactory;
 import Classes.Gender;
-import Classes.Reservation;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 
 import java.net.URL;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
-
-
-    public Button btnAddAnimal;
     public ComboBox cbSpecies;
-    public TextField tbName;
-    public TextField tbBadHabits;
-    public Label labelGender;
-    public ListView lbAnimals;
+    public TextField tfName;
+    public Label lbGender;
     public RadioButton rbMale;
     public RadioButton rbFemale;
+    public TextField tfBadHabits;
+    public Button btnAddAnimal;
+    public Label lbAnimals;
+    public ListView lvAnimals;
+    public TextField tfReservorName;
+    public Button btnReserveAnimal;
 
-
-    public Reservation reservation = new Reservation();
-
-
-    public String name;
-    public Gender gender;
-    public String badHabits;
-    public Cat cat;
-    public Dog dog;
+    private AnimalFactory animalFactory = new AnimalFactory();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-
-
-
     }
 
-    public void addAnimalOnClick(ActionEvent actionEvent) {
+    public void OnClickAddAnimal(ActionEvent actionEvent) {
+        this.createAnimal();
+        this.refreshControls();
+    }
+
+    public void OnActionAddReservor(ActionEvent actionEvent) {
+        Animal animal = (Animal) lvAnimals.getSelectionModel().getSelectedItem();
+
+        if(animal != null){
+            animal.reserve(tfReservorName.getText());
+            this.refreshControls();
+        }
+    }
+
+    public void OnActionRbMale(ActionEvent actionEvent) {
+        rbFemale.setSelected(false);
+    }
+
+    public void OnActionRbFemale(ActionEvent actionEvent) {
+        rbMale.setSelected(false);
+    }
+
+    private void refreshControls(){
+        lvAnimals.getItems().clear();
+        lvAnimals.getItems().addAll(animalFactory.getAnimals());
+    }
+
+    private void createAnimal(){
 
         String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
+        String name = tfName.getText();
+        String badHabits = tfBadHabits.getText();
+        Gender gender = getGender();
 
-        name = tbName.textProperty().get();
-        badHabits = tbBadHabits.textProperty().get();
-
-//        lbAnimals.getItems().add(simboe);
 
         if (species.equals("Cat")) {
-            reservation.newCat(name, gender, badHabits);
-
+            animalFactory.createCat(name, gender, badHabits);
         } else if (species.equals("Dog")) {
-            reservation.newDog(name,gender);
-        } else {
-            labelGender.textProperty().set("Select Species");
+            animalFactory.createDog(name, gender);
         }
-
-        lbAnimals.getItems().clear();
-        reservation.Animals.forEach((n) ->  lbAnimals.getItems().add(n));
-
-
-
     }
 
-    public void RadioButtonFemaleOnClick(ActionEvent actionEvent) {
-        rbMale.setSelected(false);
-        rbFemale.setSelected(true);
-        gender = Gender.FEMALE;
-    }
-
-    public void RadioButtonMaleOnClick(ActionEvent actionEvent) {
-        rbMale.setSelected(true);
-        rbFemale.setSelected(false);
-        gender = Gender.MALE;
-    }
-
-    public void onClickAddReservor(ActionEvent actionEvent) {
+    private Gender getGender() {
+        if (rbFemale.isSelected()) {
+            return Gender.FEMALE;
+        } else {
+            return Gender.MALE;
+        }
     }
 }
-
-
