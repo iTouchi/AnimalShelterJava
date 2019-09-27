@@ -3,7 +3,8 @@ package Classes;
 import java.util.ArrayList;
 
 public class AnimalFactory {
-    public ArrayList<Animal> animals = new ArrayList<>();
+    public SerializableArrayList<Animal> animals = new SerializableArrayList<>();
+    public Serializer serializer = new Serializer();
 
     public void createCat(String name,Gender gender, String badHabits){
         this.animals.add(new Cat(name,gender,badHabits));
@@ -14,6 +15,15 @@ public class AnimalFactory {
     }
 
     public ArrayList<Animal> getAnimals(){
+        return animals;
+    }
+
+    public void saveAnimal(){
+        serializer.serializeList(animals, "animals.ser");
+    }
+
+    public ArrayList<Animal> loadAnimal(){
+        animals = serializer.deSerializeList("animals.ser");
         return animals;
     }
 }

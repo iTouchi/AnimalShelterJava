@@ -1,8 +1,9 @@
 package Classes;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public abstract class Animal {
+public abstract class Animal implements Serializable {
 
     private String name;
     private Gender gender;
@@ -30,6 +31,7 @@ public abstract class Animal {
         }
         return this.name + ", " + this.gender + ", " + reserved;
     }
+
 
     //Getter
     //setName, setGender, setReservor

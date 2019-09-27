@@ -27,7 +27,7 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        lvAnimals.getItems().addAll(animalFactory.loadAnimal());
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {
@@ -55,6 +55,7 @@ public class Controller implements Initializable {
     private void refreshControls(){
         lvAnimals.getItems().clear();
         lvAnimals.getItems().addAll(animalFactory.getAnimals());
+        animalFactory.saveAnimal();
     }
 
     private void createAnimal(){
@@ -78,5 +79,9 @@ public class Controller implements Initializable {
         } else {
             return Gender.MALE;
         }
+    }
+
+    public void onActionLoad(ActionEvent actionEvent) {
+        lvAnimals.getItems().addAll(animalFactory.loadAnimal());
     }
 }
