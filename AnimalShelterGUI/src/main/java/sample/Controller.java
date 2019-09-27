@@ -28,17 +28,22 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         lvAnimals.getItems().addAll(animalFactory.loadAnimal());
+        tfBadHabits.setEditable(false);
+        tfReservorName.setEditable(false);
+        btnReserveAnimal.setDisable(true);
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {
-        this.createAnimal();
-        this.refreshControls();
+        if (checkFields()){
+            this.createAnimal();
+            this.refreshControls();
+        }
     }
 
     public void OnActionAddReservor(ActionEvent actionEvent) {
         Animal animal = (Animal) lvAnimals.getSelectionModel().getSelectedItem();
 
-        if(animal != null){
+        if (animal != null) {
             animal.reserve(tfReservorName.getText());
             this.refreshControls();
         }
@@ -52,13 +57,15 @@ public class Controller implements Initializable {
         rbMale.setSelected(false);
     }
 
-    private void refreshControls(){
+    private void refreshControls() {
         lvAnimals.getItems().clear();
         lvAnimals.getItems().addAll(animalFactory.getAnimals());
         animalFactory.saveAnimal();
+        tfBadHabits.clear();
+        tfName.clear();
     }
 
-    private void createAnimal(){
+    private void createAnimal() {
 
         String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
         String name = tfName.getText();
@@ -81,7 +88,39 @@ public class Controller implements Initializable {
         }
     }
 
-    public void onActionLoad(ActionEvent actionEvent) {
-        lvAnimals.getItems().addAll(animalFactory.loadAnimal());
+    public void onActionDelete(ActionEvent actionEvent) {
+        Animal animal = (Animal) lvAnimals.getSelectionModel().getSelectedItem();
+
+        if (animal != null) {
+            animal.reserve(tfReservorName.getText());
+            this.refreshControls();
+        }
+    }
+
+    public boolean checkFields() {
+        String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
+
+        if (species.equals("Cat") && tfName.getText().isEmpty() && tfBadHabits.getText().isEmpty()) {
+            if(rbFemale.isSelected() || rbMale.isSelected()){
+                return false;
+            }
+        }
+        if (species.equals("Dog") && tfName.getText().isEmpty()) {
+            if(rbFemale.isSelected() || rbMale.isSelected()){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void OnActionSpecies(ActionEvent actionEvent) {
+        if (cbSpecies.getSelectionModel().isSelected(0)){
+            tfBadHabits.setEditable(true);
+        }
+        else{
+            tfBadHabits.setEditable(false);
+            tfBadHabits.clear();
+        }
+
     }
 }

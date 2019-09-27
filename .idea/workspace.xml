@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271a24e5-ff26-41be-a11a-04e98934a479" name="Default Changelist" comment="all 3 pomfiles fixed">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/SerializableArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializer.java" afterDir="false" />
+    <list default="true" id="271a24e5-ff26-41be-a11a-04e98934a479" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -31,29 +25,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="323">
               <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,25 +40,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="251">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#Controller#0" />
                 <element signature="method#OnClickAddAnimal#0;class#Controller#0" />
-                <element signature="method#OnActionAddReservor#0;class#Controller#0" />
+                <element signature="e#1590#1634#1" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1694#1736#1" />
+                <element signature="e#1651#1652#0" expanded="true" />
+                <element signature="method#refreshControls#0;class#Controller#0" />
                 <element signature="method#createAnimal#0;class#Controller#0" />
                 <element signature="method#getGender#0;class#Controller#0" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2352#2353#0" expanded="true" />
+                <element signature="method#checkFields#0;class#Controller#0" />
+                <element signature="method#OnActionSpecies#0;class#Controller#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="132" lean-forward="true" selection-start-line="24" selection-start-column="132" selection-end-line="24" selection-end-column="132" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/SerializableArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -89,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="170">
               <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
@@ -98,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="68">
               <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +165,6 @@
         <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/test/java/KittyTest.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Reservation.java" />
-        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Cat.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Dog.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Reservor.java" />
@@ -187,6 +179,7 @@
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializer.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java" />
+        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" />
         <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" />
       </list>
     </option>
@@ -198,9 +191,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="1642" />
-    <option name="height" value="2102" />
+    <option name="x" value="3712" />
+    <option name="y" value="506" />
+    <option name="width" value="939" />
+    <option name="height" value="1202" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,10 +212,72 @@
               <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterGUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimalShelterGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +381,8 @@
       <workItem from="1569433723303" duration="8830000" />
       <workItem from="1569489095173" duration="598000" />
       <workItem from="1569498862982" duration="1973000" />
-      <workItem from="1569583883270" duration="6682000" />
+      <workItem from="1569583883270" duration="7232000" />
+      <workItem from="1569606360825" duration="3183000" />
     </task>
     <task id="LOCAL-00001" summary="pomp file changed">
       <created>1569356411866</created>
@@ -391,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569499622423</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added persistence to animals">
+      <created>1569591289381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569591289381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45882000" />
+    <option name="totallyTimeSpent" value="49615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,10 +478,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1865" height="1208" extended-state="6" />
+    <frame x="3232" y="514" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26175982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +490,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29619312" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09859155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39925718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,14 +500,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.14856082" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.14842904" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.026009962" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.025053306" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -491,7 +554,8 @@
     <MESSAGE value="folder changed" />
     <MESSAGE value="All classes updated with new names and methodes" />
     <MESSAGE value="all 3 pomfiles fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="all 3 pomfiles fixed" />
+    <MESSAGE value="added persistence to animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="added persistence to animals" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -588,85 +652,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializable.java" />
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/SerializableArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="32" column="100" lean-forward="true" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="170">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="68">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -684,28 +713,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="132" lean-forward="true" selection-start-line="24" selection-start-column="132" selection-end-line="24" selection-end-column="132" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="251">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" />
             <element signature="method#OnClickAddAnimal#0;class#Controller#0" />
-            <element signature="method#OnActionAddReservor#0;class#Controller#0" />
+            <element signature="e#1590#1634#1" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1694#1736#1" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="method#refreshControls#0;class#Controller#0" />
             <element signature="method#createAnimal#0;class#Controller#0" />
             <element signature="method#getGender#0;class#Controller#0" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="method#checkFields#0;class#Controller#0" />
+            <element signature="method#OnActionSpecies#0;class#Controller#0" />
           </folding>
         </state>
       </provider>
