@@ -6,6 +6,7 @@ import Classes.Gender;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.input.MouseEvent;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -27,10 +28,10 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        lvAnimals.getItems().addAll(animalFactory.loadAnimal());
+        lvAnimals.getItems().addAll(animalFactory.loadAnimals());
         tfBadHabits.setEditable(false);
-        tfReservorName.setEditable(false);
-        btnReserveAnimal.setDisable(true);
+//        tfReservorName.setEditable(false);
+//        btnReserveAnimal.setDisable(true);
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {
@@ -57,10 +58,11 @@ public class Controller implements Initializable {
         rbMale.setSelected(false);
     }
 
-    private void refreshControls() {
+    private void refreshControls()    {
         lvAnimals.getItems().clear();
+        animalFactory.saveAnimals();
+        animalFactory.loadAnimals();
         lvAnimals.getItems().addAll(animalFactory.getAnimals());
-        animalFactory.saveAnimal();
         tfBadHabits.clear();
         tfName.clear();
     }
@@ -92,25 +94,26 @@ public class Controller implements Initializable {
         Animal animal = (Animal) lvAnimals.getSelectionModel().getSelectedItem();
 
         if (animal != null) {
-            animal.reserve(tfReservorName.getText());
+            animalFactory.deleteAnimal(animal);
             this.refreshControls();
         }
     }
 
     public boolean checkFields() {
-        String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
+            String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
 
-        if (species.equals("Cat") && tfName.getText().isEmpty() && tfBadHabits.getText().isEmpty()) {
+
+        if (species.equals("Cat") && tfName.getText().isEmpty() == false && tfBadHabits.getText().isEmpty() == false)  {
             if(rbFemale.isSelected() || rbMale.isSelected()){
-                return false;
+                return true;
             }
         }
-        if (species.equals("Dog") && tfName.getText().isEmpty()) {
-            if(rbFemale.isSelected() || rbMale.isSelected()){
-                return false;
+        if (species.equals("Dog") && tfName.getText().isEmpty() == false) {
+            if(rbFemale.isSelected()|| rbMale.isSelected()){
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     public void OnActionSpecies(ActionEvent actionEvent) {
@@ -122,5 +125,10 @@ public class Controller implements Initializable {
             tfBadHabits.clear();
         }
 
+    }
+
+    public void OnClickedListView(MouseEvent mouseEvent) {
+//        tfReservorName.setEditable(true);
+//        btnReserveAnimal.setDisable(false);
     }
 }

@@ -1,8 +1,9 @@
 package Classes;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class Reservor {
+public class Reservor implements Serializable {
 
     private String name;
     private LocalDateTime reservedAt;

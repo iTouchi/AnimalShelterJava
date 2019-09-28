@@ -1,7 +1,5 @@
 package Classes;
 
-import java.util.ArrayList;
-
 public class AnimalFactory {
     public SerializableArrayList<Animal> animals = new SerializableArrayList<>();
     public Serializer serializer = new Serializer();
@@ -14,15 +12,20 @@ public class AnimalFactory {
         this.animals.add(new Dog(name, gender));
     }
 
-    public ArrayList<Animal> getAnimals(){
+    public void deleteAnimal(Animal animal){
+        this.animals.remove(animal);
+
+    }
+
+    public SerializableArrayList getAnimals(){
         return animals;
     }
 
-    public void saveAnimal(){
+    public void saveAnimals(){
         serializer.serializeList(animals, "animals.ser");
     }
 
-    public ArrayList<Animal> loadAnimal(){
+    public SerializableArrayList<Animal> loadAnimals(){
         animals = serializer.deSerializeList("animals.ser");
         return animals;
     }
