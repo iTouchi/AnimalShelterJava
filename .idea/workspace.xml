@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271a24e5-ff26-41be-a11a-04e98934a479" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/NumericTextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Webshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Webshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" afterDir="false" />
     </list>
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="256">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/NumericTextField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -74,15 +85,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java">
+        <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -121,7 +148,6 @@
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/SerializableArrayList.java" />
         <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Animal.java" />
-        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Serializer.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Reservor.java" />
@@ -130,8 +156,11 @@
         <option value="$PROJECT_DIR$/AnimalShelterGUI/pom.xml" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Webshop.java" />
-        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" />
         <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java" />
+        <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/numFieldFX.java" />
+        <option value="$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/NumericTextField.java" />
+        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml" />
       </list>
     </option>
   </component>
@@ -358,7 +387,7 @@
       <workItem from="1569615375509" duration="2709000" />
       <workItem from="1569654348786" duration="2429000" />
       <workItem from="1569706768633" duration="107000" />
-      <workItem from="1569754123492" duration="2321000" />
+      <workItem from="1569754123492" duration="4105000" />
     </task>
     <task id="LOCAL-00001" summary="pomp file changed">
       <created>1569356411866</created>
@@ -444,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569754774878</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added webshop with observer and listener">
+      <created>1569756477543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569756477543</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -456,7 +492,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62709000" />
+    <option name="totallyTimeSpent" value="64493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +583,8 @@
     <MESSAGE value="added persistence to animals" />
     <MESSAGE value="enabling/disabling textfield and button" />
     <MESSAGE value="All dependencies moved to main POm file" />
-    <option name="LAST_COMMIT_MESSAGE" value="All dependencies moved to main POm file" />
+    <MESSAGE value="Added webshop with observer and listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added webshop with observer and listener" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -627,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/SerializableArrayList.java" />
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/AnimalFactory.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -663,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -683,14 +706,6 @@
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Reservor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,12 +731,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,22 +758,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/Product.java">
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/numFieldFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/Classes/NumericTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterCore/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/java/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalShelterGUI/src/main/resources/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

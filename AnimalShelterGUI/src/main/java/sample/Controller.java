@@ -22,6 +22,7 @@ public class Controller implements Initializable {
     public ListView lvAnimals;
     public TextField tfReservorName;
     public Button btnReserveAnimal;
+    public TextField tfProductName;
 
     private AnimalFactory animalFactory = new AnimalFactory();
 
@@ -29,7 +30,11 @@ public class Controller implements Initializable {
 
     @FXML
     private ListView<Product> lvProducts;
+    @FXML
+    private NumericTextField tfProductPrice;
+
     private Webshop webshop = new Webshop();
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -141,4 +146,5 @@ public class Controller implements Initializable {
 //        tfReservorName.setEditable(true);
 //        btnReserveAnimal.setDisable(false);
     }
+
 }
