@@ -1,9 +1,8 @@
 package sample;
 
-import Classes.Animal;
-import Classes.AnimalFactory;
-import Classes.Gender;
+import Classes.*;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
@@ -26,12 +25,23 @@ public class Controller implements Initializable {
 
     private AnimalFactory animalFactory = new AnimalFactory();
 
+
+
+    @FXML
+    private ListView<Product> lvProducts;
+    private Webshop webshop = new Webshop();
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         lvAnimals.getItems().addAll(animalFactory.loadAnimals());
         tfBadHabits.setEditable(false);
-//        tfReservorName.setEditable(false);
-//        btnReserveAnimal.setDisable(true);
+
+        lvProducts.setItems(webshop.getProducts());
+    }
+
+    public void onActionAddProduct(ActionEvent actionEvent){
+        Product p = new Product("Food", 2.00);
+        webshop.addProducts(p);
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {
