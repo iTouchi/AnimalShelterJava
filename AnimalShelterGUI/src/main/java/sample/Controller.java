@@ -45,7 +45,9 @@ public class Controller implements Initializable {
     }
 
     public void onActionAddProduct(ActionEvent actionEvent){
-        Product p = new Product("Food", 2.00);
+        String name = tfProductName.getText();
+        String price =tfProductPrice.getText();
+        Product p = new Product(name, Double.parseDouble(price));
         webshop.addProducts(p);
     }
 
