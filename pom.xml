@@ -59,12 +59,10 @@
             <version>5.1.0</version>
             <scope>test</scope>
         </dependency>
-
-
-    <!--
-OpenFX dependencies see:
-https://openjdk.java.net/projects/openjfx/
--->
+        <!--
+    OpenFX dependencies see:
+    https://openjdk.java.net/projects/openjfx/
+    -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -80,9 +78,5 @@ https://openjdk.java.net/projects/openjfx/
             <artifactId>javafx-fxml</artifactId>
             <version>${openfxVersion}</version>
         </dependency>
-
     </dependencies>
-
-
-
 </project>
