@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnimalShelterCore/AnimalShelterCore.iml" filepath="$PROJECT_DIR$/AnimalShelterCore/AnimalShelterCore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AnimalShelterGUI/AnimalShelterGUI.iml" filepath="$PROJECT_DIR$/AnimalShelterGUI/AnimalShelterGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimalShelterJava.iml" filepath="$PROJECT_DIR$/AnimalShelterJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Logic/ApplicationLayer.iml" filepath="$PROJECT_DIR$/Logic/ApplicationLayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/PresentationLayer.iml" filepath="$PROJECT_DIR$/GUI/PresentationLayer.iml" />
     </modules>
   </component>
 </project>

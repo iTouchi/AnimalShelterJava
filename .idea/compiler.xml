@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AnimalShelterCore" />
-        <module name="AnimalShelterGUI" />
+        <module name="PresentationLayer" />
+        <module name="ApplicationLayer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AnimalShelterCore" target="11" />
-      <module name="AnimalShelterGUI" target="11" />
       <module name="AnimalShelterJava" target="11" />
+      <module name="ApplicationLayer" target="11" />
+      <module name="PresentationLayer" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
