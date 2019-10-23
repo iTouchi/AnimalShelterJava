@@ -67,8 +67,6 @@ public class Controller implements Initializable {
     public void restProduct(Product p){
         SimpleRestClient client = new SimpleRestClient();
 
-        //Post new product
-//      Product product = client.postProduct(new Product(key, Double.parseDouble(price)));
         Product product = client.postProduct(p);
         logProduct(product);
 
