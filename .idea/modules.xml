@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnimalShelterJava.iml" filepath="$PROJECT_DIR$/AnimalShelterJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Logic/ApplicationLayer.iml" filepath="$PROJECT_DIR$/Logic/ApplicationLayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/GUI/PresentationLayer.iml" filepath="$PROJECT_DIR$/GUI/PresentationLayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restserver/server.iml" filepath="$PROJECT_DIR$/restserver/server.iml" />
     </modules>
   </component>
 </project>

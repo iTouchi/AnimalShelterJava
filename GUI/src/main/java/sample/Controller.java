@@ -1,6 +1,7 @@
 package sample;
 
-import domain.*;
+import domain.Gender;
+import domain.Greeting;
 import domain.animal.Animal;
 import domain.managers.AnimalFactory;
 import domain.managers.Webshop;
@@ -10,6 +11,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -27,15 +30,16 @@ public class Controller implements Initializable {
     public TextField tfReservorName;
     public Button btnReserveAnimal;
     public TextField tfProductName;
+    public TextField tfProductPrice;
 
     private AnimalFactory animalFactory = new AnimalFactory();
 
-
+    private static final Logger log = LoggerFactory.getLogger(Controller.class);
 
     @FXML
     private ListView<Product> lvProducts;
     @FXML
-    private NumericTextField tfProductPrice;
+//    private NumericTextField tfProductPrice;
 
     private Webshop webshop = new Webshop();
 
@@ -53,6 +57,26 @@ public class Controller implements Initializable {
         String price =tfProductPrice.getText();
         Product p = new Product(name, Double.parseDouble(price));
         webshop.addProducts(p);
+
+        SimpleRestClient client = new SimpleRestClient();
+        final String key = "Voer";
+        final int age = 88;
+
+        //Post new product
+        Greeting greeting = client.postGreeting(new Greeting(key, age));
+        logGreeting(greeting);
+
+        //Get a greeting
+        greeting = client.getGreeting(key);
+        logGreeting(greeting);
+    }
+
+    public static void logGreeting(Greeting greeting){
+        if(greeting != null){
+            log.info("{} {}", greeting.getName(), greeting.getAge());
+        } else {
+            log.info("No greeting found.");
+        }
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {

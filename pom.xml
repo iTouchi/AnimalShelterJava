@@ -12,12 +12,14 @@
     <modules>
         <module>Logic</module>
         <module>GUI</module>
+        <module>restserver</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <codeVersion>11</codeVersion>
         <openfxVersion>12</openfxVersion>
+        <logback.version>1.2.3</logback.version>
     </properties>
 
     <build>
@@ -69,5 +71,14 @@
             <artifactId>javafx-fxml</artifactId>
             <version>${openfxVersion}</version>
         </dependency>
+
+        <!-- Logback -->
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
     </dependencies>
 </project>

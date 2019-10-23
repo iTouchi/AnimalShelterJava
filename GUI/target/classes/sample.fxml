@@ -10,31 +10,35 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-<?import domain.NumericTextField?>
+<!--        <?import domain.NumericTextField?>-->
+
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="971.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-    <children>
-        <ComboBox fx:id="cbSpecies" layoutX="32.0" layoutY="31.0" onAction="#OnActionSpecies" prefWidth="150.0" promptText="Species">
-            <items>
-                <FXCollections fx:factory="observableArrayList">
-                    <String fx:id="reihe" fx:value="Cat" />
-                    <String fx:id="parallel" fx:value="Dog" />
-                </FXCollections>
-            </items>
-        </ComboBox>
-        <TextField fx:id="tfName" layoutX="33.0" layoutY="83.0" promptText="Name" />
-        <Label fx:id="lbGender" layoutX="33.0" layoutY="135.0" text="Gender" />
-        <RadioButton fx:id="rbMale" layoutX="28.0" layoutY="176.0" mnemonicParsing="false" onAction="#OnActionRbMale" text="Male" />
-        <RadioButton fx:id="rbFemale" layoutX="107.0" layoutY="176.0" mnemonicParsing="false" onAction="#OnActionRbFemale" text="Female" />
-        <TextField fx:id="tfBadHabits" layoutX="28.0" layoutY="215.0" promptText="Bad habits" />
-        <Button fx:id="btnAddAnimal" layoutX="26.0" layoutY="268.0" mnemonicParsing="false" onAction="#OnClickAddAnimal" text="Add animal" />
-        <Label fx:id="lbAnimals" layoutX="226.0" layoutY="23.0" text="Animals" />
-        <ListView fx:id="lvAnimals" layoutX="226.0" layoutY="52.0" onMouseClicked="#OnClickedListView" prefHeight="200.0" prefWidth="306.0" />
-        <TextField fx:id="tfReservorName" layoutX="226.0" layoutY="281.0" promptText="Reservor name" />
-        <Button fx:id="btnReserveAnimal" layoutX="391.0" layoutY="281.0" mnemonicParsing="false" onAction="#OnActionAddReservor" text="Reserve selected animal" />
-      <Button fx:id="btnDelete" layoutX="394.0" layoutY="19.0" mnemonicParsing="false" onAction="#onActionDelete" text="Delete selected animal" textFill="RED" />
-      <ListView fx:id="lvProducts" layoutX="570.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button fx:id="btnAddProduct" layoutX="781.0" layoutY="140.0" mnemonicParsing="false" onAction="#onActionAddProduct" text="Add product" />
-      <TextField fx:id="tfProductName" layoutX="781.0" layoutY="52.0" promptText="Product name" />
-      <NumericTextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>
-    </children>
+<children>
+    <ComboBox fx:id="cbSpecies" layoutX="32.0" layoutY="31.0" onAction="#OnActionSpecies" prefWidth="150.0" promptText="Species">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:id="reihe" fx:value="Cat" />
+                <String fx:id="parallel" fx:value="Dog" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+    <TextField fx:id="tfName" layoutX="33.0" layoutY="83.0" promptText="Name" />
+    <Label fx:id="lbGender" layoutX="33.0" layoutY="135.0" text="Gender" />
+    <RadioButton fx:id="rbMale" layoutX="28.0" layoutY="176.0" mnemonicParsing="false" onAction="#OnActionRbMale" text="Male" />
+    <RadioButton fx:id="rbFemale" layoutX="107.0" layoutY="176.0" mnemonicParsing="false" onAction="#OnActionRbFemale" text="Female" />
+    <TextField fx:id="tfBadHabits" layoutX="28.0" layoutY="215.0" promptText="Bad habits" />
+    <Button fx:id="btnAddAnimal" layoutX="26.0" layoutY="268.0" mnemonicParsing="false" onAction="#OnClickAddAnimal" text="Add animal" />
+    <Label fx:id="lbAnimals" layoutX="226.0" layoutY="23.0" text="Animals" />
+    <ListView fx:id="lvAnimals" layoutX="226.0" layoutY="52.0" onMouseClicked="#OnClickedListView" prefHeight="200.0" prefWidth="306.0" />
+    <TextField fx:id="tfReservorName" layoutX="226.0" layoutY="281.0" promptText="Reservor name" />
+    <Button fx:id="btnReserveAnimal" layoutX="391.0" layoutY="281.0" mnemonicParsing="false" onAction="#OnActionAddReservor" text="Reserve selected animal" />
+    <Button fx:id="btnDelete" layoutX="394.0" layoutY="19.0" mnemonicParsing="false" onAction="#onActionDelete" text="Delete selected animal" textFill="RED" />
+    <ListView fx:id="lvProducts" layoutX="570.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" />
+    <Button fx:id="btnAddProduct" layoutX="781.0" layoutY="140.0" mnemonicParsing="false" onAction="#onActionAddProduct" text="Add product" />
+    <TextField fx:id="tfProductName" layoutX="781.0" layoutY="52.0" promptText="Product name" />
+    <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>
+<!--      <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="83.0" promptText="Product age" />-->
+<!--    <NumericTextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>-->
+
+</children>
 </Pane>
