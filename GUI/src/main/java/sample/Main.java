@@ -22,27 +22,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
-
-//        SimpleRestClient client = new SimpleRestClient();
-//        final String key = "Leon";
-//        final int age = 88;
-//
-//        // Post new greeting
-//        Greeting greeting = client.postGreeting(new Greeting(key, age));
-//        logGreeting(greeting);
-//
-//        // Get a greeting
-//        greeting = client.getGreeting(key);
-//        logGreeting(greeting);
+          launch(args);
     }
-
-//    private static void logGreeting(Greeting greeting) {
-//        if (greeting != null) {
-//            log.info("{} {}", greeting.getName(), greeting.getAge());
-//        } else {
-//            log.info("No greeting found.");
-//        }
-//    }
 
 }

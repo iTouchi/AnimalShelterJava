@@ -1,3 +1,4 @@
+import endpoint.ProductEndpoint;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -31,8 +32,13 @@ public class RestServer {
 
         ServletHolder servletHolder = handler.addServlet(ServletContainer.class, "/*");
         servletHolder.setInitOrder(0);
+//        servletHolder.setInitParameter("jersey.config.server.provider.classnames",
+//                SimpleRestEndpoint.class.getCanonicalName());
+
         servletHolder.setInitParameter("jersey.config.server.provider.classnames",
-                SimpleRestEndpoint.class.getCanonicalName());
+                ProductEndpoint.class.getCanonicalName());
+
+
 
         return handler;
     }

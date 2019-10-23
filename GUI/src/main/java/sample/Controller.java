@@ -55,12 +55,19 @@ public class Controller implements Initializable {
     public void onActionAddProduct(ActionEvent actionEvent){
         String name = tfProductName.getText();
         String price =tfProductPrice.getText();
-        Product p = new Product(name, Double.parseDouble(price));
+        int pp = Integer.parseInt(price);
+        Double p2 = Double.parseDouble(price);
+        Product p = new Product(name, p2);
         webshop.addProducts(p);
 
+//        restShizzle(name, pp);
+        restProduct(p);
+    }
+
+    public void restShizzle(String s, int i){
         SimpleRestClient client = new SimpleRestClient();
-        final String key = "Voer";
-        final int age = 88;
+        final String key = s;
+        final int age = i;
 
         //Post new product
         Greeting greeting = client.postGreeting(new Greeting(key, age));
@@ -71,11 +78,31 @@ public class Controller implements Initializable {
         logGreeting(greeting);
     }
 
+    public void restProduct(Product p){
+        SimpleRestClient client = new SimpleRestClient();
+
+        //Post new product
+//      Product product = client.postProduct(new Product(key, Double.parseDouble(price)));
+        Product product = client.postProduct(p);
+        logProduct(product);
+
+        //Get a product
+        product = client.getProduct(p.getName());
+        logProduct(product);
+    }
+
     public static void logGreeting(Greeting greeting){
         if(greeting != null){
             log.info("{} {}", greeting.getName(), greeting.getAge());
         } else {
             log.info("No greeting found.");
+        }
+    }
+    public static void logProduct(Product product){
+        if(product != null){
+            log.info("{} {}", product.getName(), product.getPrice());
+        } else {
+            log.info("No product found.");
         }
     }
 
