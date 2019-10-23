@@ -1,7 +1,6 @@
 package sample;
 
 import domain.Gender;
-import domain.Greeting;
 import domain.animal.Animal;
 import domain.managers.AnimalFactory;
 import domain.managers.Webshop;
@@ -54,29 +53,16 @@ public class Controller implements Initializable {
 
     public void onActionAddProduct(ActionEvent actionEvent){
         String name = tfProductName.getText();
-        String price =tfProductPrice.getText();
-        int pp = Integer.parseInt(price);
-        Double p2 = Double.parseDouble(price);
-        Product p = new Product(name, p2);
-        webshop.addProducts(p);
+        String stringPrice =tfProductPrice.getText();
 
-//        restShizzle(name, pp);
-        restProduct(p);
+        Double productPrice = Double.parseDouble(stringPrice);
+        Product product = new Product(name, productPrice);
+
+        webshop.addProducts(product);
+
+        restProduct(product);
     }
 
-    public void restShizzle(String s, int i){
-        SimpleRestClient client = new SimpleRestClient();
-        final String key = s;
-        final int age = i;
-
-        //Post new product
-        Greeting greeting = client.postGreeting(new Greeting(key, age));
-        logGreeting(greeting);
-
-        //Get a greeting
-        greeting = client.getGreeting(key);
-        logGreeting(greeting);
-    }
 
     public void restProduct(Product p){
         SimpleRestClient client = new SimpleRestClient();
@@ -91,13 +77,6 @@ public class Controller implements Initializable {
         logProduct(product);
     }
 
-    public static void logGreeting(Greeting greeting){
-        if(greeting != null){
-            log.info("{} {}", greeting.getName(), greeting.getAge());
-        } else {
-            log.info("No greeting found.");
-        }
-    }
     public static void logProduct(Product product){
         if(product != null){
             log.info("{} {}", product.getName(), product.getPrice());
