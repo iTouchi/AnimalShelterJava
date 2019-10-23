@@ -34,6 +34,7 @@ public class Controller implements Initializable {
     private AnimalFactory animalFactory = new AnimalFactory();
 
     private static final Logger log = LoggerFactory.getLogger(Controller.class);
+    SimpleRestClient client = new SimpleRestClient();
 
     @FXML
     private ListView<Product> lvProducts;
@@ -60,13 +61,12 @@ public class Controller implements Initializable {
 
         webshop.addProducts(product);
 
-        restProduct(product);
+    postProduct(product);
     }
 
 
-    public void restProduct(Product p){
-        SimpleRestClient client = new SimpleRestClient();
-
+    public void postProduct(Product p){
+        //Post Product
         Product product = client.postProduct(p);
         logProduct(product);
 
@@ -74,7 +74,6 @@ public class Controller implements Initializable {
         product = client.getProduct(p.getName());
         logProduct(product);
     }
-
     public static void logProduct(Product product){
         if(product != null){
             log.info("{} {}", product.getName(), product.getPrice());
