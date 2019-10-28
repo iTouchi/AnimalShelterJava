@@ -36,7 +36,9 @@
     <ListView fx:id="lvProducts" layoutX="570.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" />
     <Button fx:id="btnAddProduct" layoutX="781.0" layoutY="140.0" mnemonicParsing="false" onAction="#onActionAddProduct" text="Add product" />
     <TextField fx:id="tfProductName" layoutX="781.0" layoutY="52.0" promptText="Product name" />
-    <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>
+    <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price" />
+      <Label fx:id="lbObservableList" layoutX="570.0" layoutY="23.0" text="Observable List" />
+      <Label fx:id="lbRest" layoutX="782.0" layoutY="22.0" text="Rest" />
 <!--      <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="83.0" promptText="Product age" />-->
 <!--    <NumericTextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>-->
 

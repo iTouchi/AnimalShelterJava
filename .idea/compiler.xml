@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PresentationLayer" />
         <module name="server" />
+        <module name="PresentationLayer" />
+        <module name="websocketserver" />
         <module name="ApplicationLayer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AnimalShelterJava" target="11" />
       <module name="ApplicationLayer" target="11" />
+      <module name="gest" target="11" />
       <module name="PresentationLayer" target="11" />
       <module name="server" target="11" />
+      <module name="websocket" target="11" />
       <module name="websocketserver" target="11" />
     </bytecodeTargetLevel>
   </component>

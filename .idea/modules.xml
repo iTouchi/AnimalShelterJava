@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Logic/ApplicationLayer.iml" filepath="$PROJECT_DIR$/Logic/ApplicationLayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/GUI/PresentationLayer.iml" filepath="$PROJECT_DIR$/GUI/PresentationLayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/restserver/server.iml" filepath="$PROJECT_DIR$/restserver/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websockets/websocketserver.iml" filepath="$PROJECT_DIR$/websockets/websocketserver.iml" />
     </modules>
   </component>
 </project>
