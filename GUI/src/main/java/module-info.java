@@ -9,6 +9,7 @@ module PresentationLayer {
     requires slf4j.api;
     requires org.apache.httpcomponents.httpcore;
     requires java.sql;
+    requires javax.websocket.client.api;
 
     opens sample;
     exports sample;
