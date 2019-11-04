@@ -39,6 +39,7 @@
     <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price" />
       <Label fx:id="lbObservableList" layoutX="570.0" layoutY="23.0" text="Observable List" />
       <Label fx:id="lbRest" layoutX="782.0" layoutY="22.0" text="Rest" />
+      <Button fx:id="btnAddSockets" layoutX="620.0" layoutY="281.0" mnemonicParsing="false" onAction="#onActionSockets" text="Sockets" />
 <!--      <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="83.0" promptText="Product age" />-->
 <!--    <NumericTextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>-->
 

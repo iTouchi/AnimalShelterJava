@@ -37,7 +37,6 @@ public class Controller implements Initializable {
     SimpleRestClient client = new SimpleRestClient();
 
 
-
     @FXML
     private ListView<Product> lvProducts;
     @FXML
@@ -53,26 +52,22 @@ public class Controller implements Initializable {
         lvProducts.setItems(webshop.getProducts());
 
 
-
     }
 
-    public void onActionAddProduct(ActionEvent actionEvent){
+    public void onActionAddProduct(ActionEvent actionEvent) {
         String name = tfProductName.getText();
-        String stringPrice =tfProductPrice.getText();
+        String stringPrice = tfProductPrice.getText();
 
         Double productPrice = Double.parseDouble(stringPrice);
         Product product = new Product(name, productPrice);
 
         webshop.addProducts(product);
 
-        WebsocketClient websocketClient = new WebsocketClient();
-        websocketClient.start("MONSTE",99);
-
         postProduct(product);
     }
 
 
-    public void postProduct(Product p){
+    public void postProduct(Product p) {
         //Post Product
         Product product = client.postProduct(p);
         logProduct(product);
@@ -81,8 +76,9 @@ public class Controller implements Initializable {
         product = client.getProduct(p.getName());
         logProduct(product);
     }
-    public static void logProduct(Product product){
-        if(product != null){
+
+    public static void logProduct(Product product) {
+        if (product != null) {
             log.info("{} {}", product.getName(), product.getPrice());
         } else {
             log.info("No product found.");
@@ -90,7 +86,7 @@ public class Controller implements Initializable {
     }
 
     public void OnClickAddAnimal(ActionEvent actionEvent) {
-        if (checkFields()){
+        if (checkFields()) {
             this.createAnimal();
             this.refreshControls();
         }
@@ -113,7 +109,7 @@ public class Controller implements Initializable {
         rbMale.setSelected(false);
     }
 
-    private void refreshControls()    {
+    private void refreshControls() {
         lvAnimals.getItems().clear();
         animalFactory.saveAnimals();
         animalFactory.loadAnimals();
@@ -155,16 +151,16 @@ public class Controller implements Initializable {
     }
 
     public boolean checkFields() {
-            String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
+        String species = cbSpecies.getSelectionModel().getSelectedItem().toString();
 
 
-        if (species.equals("Cat") && tfName.getText().isEmpty() == false && tfBadHabits.getText().isEmpty() == false)  {
-            if(rbFemale.isSelected() || rbMale.isSelected()){
+        if (species.equals("Cat") && tfName.getText().isEmpty() == false && tfBadHabits.getText().isEmpty() == false) {
+            if (rbFemale.isSelected() || rbMale.isSelected()) {
                 return true;
             }
         }
         if (species.equals("Dog") && tfName.getText().isEmpty() == false) {
-            if(rbFemale.isSelected()|| rbMale.isSelected()){
+            if (rbFemale.isSelected() || rbMale.isSelected()) {
                 return true;
             }
         }
@@ -172,10 +168,9 @@ public class Controller implements Initializable {
     }
 
     public void OnActionSpecies(ActionEvent actionEvent) {
-        if (cbSpecies.getSelectionModel().isSelected(0)){
+        if (cbSpecies.getSelectionModel().isSelected(0)) {
             tfBadHabits.setEditable(true);
-        }
-        else{
+        } else {
             tfBadHabits.setEditable(false);
             tfBadHabits.clear();
         }
@@ -187,4 +182,8 @@ public class Controller implements Initializable {
 //        btnReserveAnimal.setDisable(false);
     }
 
+    public void onActionSockets(ActionEvent actionEvent) {
+        WebsocketClient websocketClient = new WebsocketClient();
+        websocketClient.start();
+    }
 }
