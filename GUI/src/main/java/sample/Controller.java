@@ -35,7 +35,7 @@ public class Controller implements Initializable {
 
     private static final Logger log = LoggerFactory.getLogger(Controller.class);
     SimpleRestClient client = new SimpleRestClient();
-    WebsocketClient websocketClient = new WebsocketClient();
+
 
 
     @FXML
@@ -50,8 +50,6 @@ public class Controller implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         lvAnimals.getItems().addAll(animalFactory.loadAnimals());
         tfBadHabits.setEditable(false);
-        String name = "MONSTER3";
-        websocketClient.start(name,99);
         lvProducts.setItems(webshop.getProducts());
 
 
@@ -66,6 +64,10 @@ public class Controller implements Initializable {
         Product product = new Product(name, productPrice);
 
         webshop.addProducts(product);
+
+        WebsocketClient websocketClient = new WebsocketClient();
+        websocketClient.start("MONSTE",99);
+
         postProduct(product);
     }
 
