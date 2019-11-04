@@ -1,5 +1,6 @@
 package sample;
 
+import com.AnimalShelterJava.WebsocketClient;
 import domain.Gender;
 import domain.animal.Animal;
 import domain.managers.AnimalFactory;

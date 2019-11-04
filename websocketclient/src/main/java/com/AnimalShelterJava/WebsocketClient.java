@@ -12,7 +12,7 @@ public class WebsocketClient implements Observer {
 
     private static final Logger log = LoggerFactory.getLogger(WebsocketClient.class);
 
-    void start() {
+    public void start() {
         try {
             GreeterClientEndpoint greeterClientEndpoint = GreeterClientEndpoint.getInstance();
             greeterClientEndpoint.addObserver(this);

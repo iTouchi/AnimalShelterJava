@@ -3,6 +3,7 @@ module PresentationLayer {
     requires ApplicationLayer;
     requires javafx.fxml;
     requires javafx.controls;
+    requires websocketclient;
 
     requires gson;
     requires org.apache.httpcomponents.httpclient;
