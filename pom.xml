@@ -13,9 +13,8 @@
         <module>Logic</module>
         <module>GUI</module>
         <module>restserver</module>
-        <module>gest</module>
-        <module>websockets</module>
-
+        <module>websocketclient</module>
+        <module>websocket</module>
     </modules>
 
     <properties>

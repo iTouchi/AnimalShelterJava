@@ -1,4 +1,4 @@
-package sample.endpoint;
+package com.AnimalShelterJava.endpoint;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;

@@ -1,26 +1,25 @@
-package sample;
+package com.AnimalShelterJava;
 
-
+import com.AnimalShelterJava.endpoint.GreeterClientEndpoint;
 import domain.Greeting;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sample.endpoint.GreeterClientEndpoint;
+
 import java.util.Observable;
 import java.util.Observer;
 
-public class WebsocketClient  implements Observer {
+public class WebsocketClient implements Observer {
 
     private static final Logger log = LoggerFactory.getLogger(WebsocketClient.class);
 
-    void start(String name, int age) {
+    void start() {
         try {
             GreeterClientEndpoint greeterClientEndpoint = GreeterClientEndpoint.getInstance();
             greeterClientEndpoint.addObserver(this);
             greeterClientEndpoint.start();
             log.info("Websocket client started");
 
-            greeterClientEndpoint.sendMessageToServer(new Greeting(name, age));
-
+            greeterClientEndpoint.sendMessageToServer(new Greeting("MESSAGE", 50));
 
             greeterClientEndpoint.stop();
             log.info("Websocket client stopped");

@@ -1,3 +1,4 @@
+import endpoint.AnimalEndpoint;
 import endpoint.ProductEndpoint;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
@@ -35,9 +36,12 @@ public class RestServer {
 //        servletHolder.setInitParameter("jersey.config.server.provider.classnames",
 //                SimpleRestEndpoint.class.getCanonicalName());
 
-        servletHolder.setInitParameter("jersey.config.server.provider.classnames",
-                ProductEndpoint.class.getCanonicalName());
-
+        var endPoints = new String[]{
+                AnimalEndpoint.class.getCanonicalName(),
+                ProductEndpoint.class.getCanonicalName()};
+        servletHolder.setInitParameter(
+                "jersey.config.server.provider.classnames",
+                String.join("\n", endPoints));
 
 
         return handler;

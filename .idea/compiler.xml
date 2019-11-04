@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="websocketclient" />
         <module name="server" />
+        <module name="websocket" />
         <module name="PresentationLayer" />
-        <module name="websocketserver" />
         <module name="ApplicationLayer" />
       </profile>
     </annotationProcessing>
@@ -16,9 +17,15 @@
       <module name="AnimalShelterJava" target="11" />
       <module name="ApplicationLayer" target="11" />
       <module name="gest" target="11" />
+      <module name="poep" target="11" />
+      <module name="poppo" target="11" />
       <module name="PresentationLayer" target="11" />
       <module name="server" target="11" />
+      <module name="test" target="11" />
+      <module name="websock" target="11" />
       <module name="websocket" target="11" />
+      <module name="websocketclient" target="11" />
+      <module name="websockets" target="11" />
       <module name="websocketserver" target="11" />
     </bytecodeTargetLevel>
   </component>

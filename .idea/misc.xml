@@ -9,6 +9,11 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/gest/pom.xml" />
+        <option value="$PROJECT_DIR$/poep/pom.xml" />
+        <option value="$PROJECT_DIR$/poppo/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/websock/pom.xml" />
+        <option value="$PROJECT_DIR$/websockets/pom.xml" />
         <option value="$PROJECT_DIR$/websocketserver/pom.xml" />
       </set>
     </option>
