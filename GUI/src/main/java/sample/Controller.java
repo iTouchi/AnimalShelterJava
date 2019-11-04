@@ -31,6 +31,8 @@ public class Controller implements Initializable {
     public Button btnReserveAnimal;
     public TextField tfProductName;
     public TextField tfProductPrice;
+    public TextField tfSocketName;
+    public TextField tfSocketAge;
 
     private AnimalFactory animalFactory = new AnimalFactory();
 
@@ -184,7 +186,11 @@ public class Controller implements Initializable {
     }
 
     public void onActionSockets(ActionEvent actionEvent) {
+        String name = tfSocketName.getText();
+        String stringAge = tfSocketAge.getText();
+        int age = Integer.parseInt(stringAge);
+
         WebsocketClient websocketClient = new WebsocketClient();
-        websocketClient.start();
+        websocketClient.start(name,age);
     }
 }

@@ -12,14 +12,14 @@ public class WebsocketClient implements Observer {
 
     private static final Logger log = LoggerFactory.getLogger(WebsocketClient.class);
 
-    public void start() {
+    public void start(String name, int age) {
         try {
             GreeterClientEndpoint greeterClientEndpoint = GreeterClientEndpoint.getInstance();
             greeterClientEndpoint.addObserver(this);
             greeterClientEndpoint.start();
             log.info("Websocket client started");
 
-            greeterClientEndpoint.sendMessageToServer(new Greeting("MESSAGE", 50));
+            greeterClientEndpoint.sendMessageToServer(new Greeting(name,age));
 
             greeterClientEndpoint.stop();
             log.info("Websocket client stopped");
