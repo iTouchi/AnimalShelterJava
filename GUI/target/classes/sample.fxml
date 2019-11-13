@@ -12,7 +12,7 @@
 
 <!--        <?import domain.NumericTextField?>-->
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="971.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1169.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 <children>
     <ComboBox fx:id="cbSpecies" layoutX="32.0" layoutY="31.0" onAction="#OnActionSpecies" prefWidth="150.0" promptText="Species">
         <items>
@@ -39,7 +39,10 @@
     <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price" />
       <Label fx:id="lbObservableList" layoutX="570.0" layoutY="23.0" text="Observable List" />
       <Label fx:id="lbRest" layoutX="782.0" layoutY="22.0" text="Rest" />
-      <Button fx:id="btnAddSockets" layoutX="620.0" layoutY="281.0" mnemonicParsing="false" onAction="#onActionSockets" text="Sockets" />
+      <Button fx:id="btnAddSockets" layoutX="966.0" layoutY="140.0" mnemonicParsing="false" onAction="#onActionSockets" text="Sende Message" />
+      <Label fx:id="lbSocket" layoutX="965.0" layoutY="23.0" text="Websocket" />
+      <TextField fx:id="tfSocketName" layoutX="965.0" layoutY="49.0" promptText="name" />
+      <TextField fx:id="tfSocketAge" layoutX="965.0" layoutY="93.0" promptText="age" />
 <!--      <TextField fx:id="tfProductPrice" layoutX="781.0" layoutY="83.0" promptText="Product age" />-->
 <!--    <NumericTextField fx:id="tfProductPrice" layoutX="781.0" layoutY="96.0" promptText="Product price"/>-->
 

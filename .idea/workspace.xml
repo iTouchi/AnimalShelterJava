@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271a24e5-ff26-41be-a11a-04e98934a479" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketclient/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/PresentationLayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/PresentationLayer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/src/main/java/sample/WebsocketClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/src/main/java/sample/endpoint/GreeterClientEndpoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/target/classes/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/classes/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/target/classes/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/classes/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/target/classes/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/target/classes/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocketclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocketclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocketclient/websocketclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/websocketclient/websocketclient.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/AnimalShelterGUI/target/" />
@@ -50,54 +38,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java">
+        <entry file="file://$PROJECT_DIR$/GUI/src/main/resources/sample.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1470">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#OnClickAddAnimal#0;class#Controller#0" />
-                <element signature="method#OnActionAddReservor#0;class#Controller#0" />
-                <element signature="method#refreshControls#0;class#Controller#0" />
-                <element signature="method#createAnimal#0;class#Controller#0" />
-                <element signature="method#getGender#0;class#Controller#0" />
-                <element signature="method#onActionDelete#0;class#Controller#0" />
-                <element signature="method#checkFields#0;class#Controller#0" />
-                <element signature="method#OnActionSpecies#0;class#Controller#0" />
-                <element signature="method#OnClickedListView#0;class#Controller#0" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="16" column="129" selection-start-line="16" selection-start-column="129" selection-end-line="16" selection-end-column="129" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/src/main/java/module-info.java">
+        <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java">
+        <entry file="file://$PROJECT_DIR$/restserver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1239">
+              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Logic/src/main/java/domain/animal/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -105,26 +86,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/SimpleRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="147">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/WebsocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,14 +105,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/endpoint/GreeterClientEndpoint.java">
+        <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,23 +201,23 @@
         <option value="$PROJECT_DIR$/websocketserver/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/poep/pom.xml" />
-        <option value="$PROJECT_DIR$/websocket/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/WebsocketServer.java" />
         <option value="$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/endpoint/GreeterEndpoint.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/sample/endpoint/GreeterClientEndpoint.java" />
-        <option value="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java" />
         <option value="$PROJECT_DIR$/websocket/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/sample/WebsocketClient.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/sample/Main.java" />
-        <option value="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java" />
         <option value="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/endpoint/GreeterClientEndpoint.java" />
         <option value="$PROJECT_DIR$/websocketclient/pom.xml" />
-        <option value="$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java" />
         <option value="$PROJECT_DIR$/websocketclient/src/main/java/package-info.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/endpoint/GreeterClientEndpoint.java" />
         <option value="$PROJECT_DIR$/GUI/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/websocketclient/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java" />
+        <option value="$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java" />
+        <option value="$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
       </list>
     </option>
   </component>
@@ -271,9 +243,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1609" />
-    <option name="width" value="1640" />
-    <option name="height" value="2111" />
+    <option name="x" value="-12" />
+    <option name="width" value="1641" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -291,32 +263,6 @@
               <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
-              <item name="websocketclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
-              <item name="websocketclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
-              <item name="websocketclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnimalShelterJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnimalShelterJava" type="462c0819:PsiDirectoryNode" />
-              <item name="websocketclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -333,14 +279,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../javafx-websocket-test-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fun3_kochfractal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -479,9 +425,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RestServer (1)" />
         <item itemvalue="Application.WebsocketServer" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.RestServer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +495,12 @@
       <workItem from="1572783059407" duration="5927000" />
       <workItem from="1572863335985" duration="5557000" />
       <workItem from="1572872992378" duration="2777000" />
-      <workItem from="1572878817636" duration="15020000" />
+      <workItem from="1572878817636" duration="15736000" />
+      <workItem from="1573505253601" duration="4397000" />
+      <workItem from="1573588192515" duration="2989000" />
+      <workItem from="1573632581440" duration="3224000" />
+      <workItem from="1573638599354" duration="751000" />
+      <workItem from="1573646044434" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="pomp file changed">
       <created>1569356411866</created>
@@ -789,7 +740,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572894569417</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Websocket server werkt en kan benaderd worden via de JAVAFX module. In de module-info.java file van websocketclient heb ik &quot;requires java.sql&quot; toegevoegd en nu werkt alles.">
+      <created>1572901925248</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1572901925248</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Websocket implementation in JAVAFX.">
+      <created>1572902517131</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1572902517131</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -807,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200996000" />
+    <option name="totallyTimeSpent" value="213568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,9 +785,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2175" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82429904" visible="true" weight="0.19763593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82429904" visible="true" weight="0.14893617" />
       <window_info id="Structure" order="1" sideWeight="0.17570093" side_tool="true" weight="0.28863636" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -832,7 +796,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32969603" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289166" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997636" visible="true" weight="0.43881527" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997636" weight="0.5258621" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.36682242" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -843,6 +807,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289166" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002364" side_tool="true" weight="0.42400622" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3819174" />
+      <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24958494" />
@@ -850,7 +815,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.014184397" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.016548464" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
@@ -859,8 +824,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="all 3 pomfiles fixed" />
-    <MESSAGE value="added persistence to animals" />
     <MESSAGE value="enabling/disabling textfield and button" />
     <MESSAGE value="All dependencies moved to main POm file" />
     <MESSAGE value="Added webshop with observer and listener" />
@@ -884,7 +847,9 @@
     <MESSAGE value="Websockets enzo" />
     <MESSAGE value="Websockets server werkt start en kan verbinden met client, maar niet met mijn eigen client." />
     <MESSAGE value="WebsocketServer kan verbinding maken met mijn eigen client, maar niet met JavaDX client." />
-    <option name="LAST_COMMIT_MESSAGE" value="WebsocketServer kan verbinding maken met mijn eigen client, maar niet met JavaDX client." />
+    <MESSAGE value="Websocket server werkt en kan benaderd worden via de JAVAFX module. In de module-info.java file van websocketclient heb ik &quot;requires java.sql&quot; toegevoegd en nu werkt alles." />
+    <MESSAGE value="Websocket implementation in JAVAFX." />
+    <option name="LAST_COMMIT_MESSAGE" value="Websocket implementation in JAVAFX." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,12 +859,6 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/restserver/src/main/java/endpoint/ProductEndpoint.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/GUI/src/main/java/sample/endpoint/GreeterClientEndpoint.java</url>
@@ -917,74 +876,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/10.0.0-alpha0/jetty-server-10.0.0-alpha0.jar!/org/eclipse/jetty/server/Server.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="476" column="32" selection-start-line="476" selection-start-column="29" selection-end-line="476" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-client-api/1.0/javax.websocket-client-api-1.0.jar!/javax/websocket/OnOpen.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logic/src/main/java/domain/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.4/lib/src.zip!/java.base/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-client-api/1.0/javax.websocket-client-api-1.0.jar!/javax/websocket/Session.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/endpoint/ProductEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/data/ProductStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/RestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,35 +904,12 @@
     <entry file="file://$PROJECT_DIR$/websockets/src/main/java/WebsocketServer.java" />
     <entry file="file://$PROJECT_DIR$/websockets/src/main/java/endpoint/GreeterEndpoint.java" />
     <entry file="file://$PROJECT_DIR$/websock/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/websockets/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/AnimalShelterJava/WebsocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poppo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocketserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poep/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/websockets/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/AnimalShelterJava/WebsocketServer.java" />
+    <entry file="file://$PROJECT_DIR$/poppo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/websocketserver/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/poep/pom.xml" />
     <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/endpoint/GreeterEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -1048,20 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocket/websocket.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -1069,17 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/resources/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="41" column="107" lean-forward="true" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/resources.properties" />
     <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1094,23 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/WebsocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/WebsocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/WebsocketClient.java" />
     <entry file="file://$PROJECT_DIR$/Logic/src/main/java/domain/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1125,18 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/endpoint/GreeterClientEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendMessageToServer#0;class#GreeterClientEndpoint#0" />
-            <element signature="method#stopClient#0;class#GreeterClientEndpoint#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/endpoint/GreeterClientEndpoint.java" />
     <entry file="file://$PROJECT_DIR$/websocketclient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1151,20 +972,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/package-info.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.4/lib/src.zip!/java.base/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1193,23 +1001,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/WebsocketClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/endpoint/GreeterClientEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/App.java">
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/WebsocketClient.java" />
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/endpoint/GreeterClientEndpoint.java" />
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/AnimalShelterJava/App.java" />
+    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/WebsocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1218,7 +1030,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/endpoint/GreeterClientEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="105">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1228,26 +1040,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/com/AnimalShelterJava/App.java">
+    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/data/ProductStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/SimpleRestClient.java">
+    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/RestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="189">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/12/javafx-graphics-12-win.jar!/javafx/application/Application.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logic/src/test/java/CatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restserver/src/main/java/endpoint/ProductEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1470">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onActionAddProduct#0;class#Controller#0" />
+            <element signature="method#postProduct#0;class#Controller#0" />
+            <element signature="method#logProduct#0;class#Controller#0" />
             <element signature="method#OnClickAddAnimal#0;class#Controller#0" />
             <element signature="method#OnActionAddReservor#0;class#Controller#0" />
             <element signature="method#refreshControls#0;class#Controller#0" />
@@ -1257,14 +1114,68 @@
             <element signature="method#checkFields#0;class#Controller#0" />
             <element signature="method#OnActionSpecies#0;class#Controller#0" />
             <element signature="method#OnClickedListView#0;class#Controller#0" />
+            <element signature="method#onActionSockets#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/resources/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="129" selection-start-line="16" selection-start-column="129" selection-end-line="16" selection-end-column="129" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/SimpleRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/AnimalShelterJava/WebsocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/src/main/java/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#685#686#0" expanded="true" />
@@ -1273,17 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/src/main/java/module-info.java">
+    <entry file="file://$PROJECT_DIR$/Logic/src/main/java/domain/animal/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocketclient/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1255,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>websocketclient</last-edited>
+          <last-edited>AnimalShelterJava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
